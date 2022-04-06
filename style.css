@@ -1,44 +1,79 @@
 body {
   margin: 0;
+  font-family: roboto mono;
+  font-weight: 300;
+  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+  padding: 100px;
 }
 
 .header {
-  background-color: CornflowerBlue;
   text-align: center;
   background-image: url("./travel.jpeg");
   background-repeat: no-repeat;
   background-color: #cccccc;
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  min-height: 400px;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  width: 100%;
 }
 
 .row {
-background: rgba(0,0,0,0.5);
-    overflow: hidden;
-    height: 100%;
-    z-index: 2;
-  }
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  min-height: 400px;
+  z-index: 2;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.row img {
+  border: 5px solid #ffffff;
+  margin-top: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: roboto;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 80px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-family: roboto;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size:36px;
+}
 
 .about-me {
-  font-size: 20px;
-  opacity: 0.50;
+  margin-top: -50px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.4em;
 }
 
 .title {
   font-weight: bold;
 }
 
-h1 {
-  color: Azure;
-  font-family: lora !important;
-  font-weight: 200;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 30px;
-}
-
-body {
-  font-family: Georgia;
-  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+.container {
+  background-color: #ffffff;
+  padding-right: 75px;
+  padding-left: 75px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-top: 0;
+  display:flex;
+  flex-direction: column;
 }
