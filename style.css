@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: CornflowerBlue;
+  text-align: center;
+  background-image: url("./travel.jpeg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.row {
+background: rgba(0,0,0,0.5);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+  }
+
+.about-me {
+  font-size: 20px;
+  opacity: 0.50;
+}
+
+.title {
+  font-weight: bold;
+}
+
+h1 {
+  color: Azure;
+  font-family: lora !important;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+body {
+  font-family: Georgia;
+  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}
